@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Mansalva|Grenze|Roboto|Turret Road">
+   
+    <title>fonttikoko</title>
+</head>
+<body>
+    <div class="container">
+
+    <h1 class="h1">Tämän listan fonttikoko muuttuu napista painamalla</h1>
+
+    <p class="showFont">Ensimmäinen napin painallus muuttaa fonttikooksi 20px</p>
+    <p  class="showFont">Toinen napin painallus muuttaa fonttikooksi 24px</p>
+    <p  class="showFont">Kolmas napin painallus muuttaa fonttikooksi 28px</p>
+    <p  class="showFont">Neljäs napin painallus muuttaa fonttikooksi 32px</p>
+    <p  class="showFont">Viides napin painallus muuttaa fonttikooksi 16px</p>
+
+
+    <p id="nyt">Fontinkoko nyt: </p>
+
+    <button id="btn" type="button" onclick="myFunction()">Fontin koko</button>
+
+    <script src="./js/main.js"></script>
+</div>
+
+<div class="container1">
+    <h1 class="h1">Tämän listan fonttityyppi muuttuu napista painamalla</h1>
+
+    <p id="fontChange0" class="ChangeFont">Ensimmäinen napin painallus muuttaa fonttityypiksi "Roboto"</p>
+<p id="fontChange1" class="ChangeFont">Toinen napin painallus muuttaa fonttityypiksi "Mansalva"</p>
+<p id="fontChange2" class="ChangeFont">Kolmas napin painallus muuttaa fonttityypiksi "Grenze"</p>
+<p id="fontChange3" class="ChangeFont">Neljäs napin painallus muuttaa fonttityypiksi "Turret Road"</p>
+<p id="fontChange4" class="ChangeFont">Viides napin painallus muuttaa fonttityypiksi "Courier New"</p>
+
+<p id="nykyFontti">Fontti on nyt:  <span id="currentFont">Roboto</span></p>
+
+<button id="fontStylebtn" type="button">Muuta fontti</button>
+
+</div>
+
+    
+</body>
+</html>

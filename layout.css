@@ -1,0 +1,52 @@
+.container{
+    
+    background-color: rgb(218, 225, 230);
+    padding: 1rem;
+    margin: 0.5rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+}
+
+.container1{
+    background-color: rgb(218, 225, 230);
+    padding: 1rem;
+    margin: 0.5rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+
+}
+
+.h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#btn{
+    background-color: rgb(101, 101, 239);
+    padding: 1rem;
+    font-size: large;
+    color: azure;
+    border-radius: 0.5rem;
+    
+}
+
+#nyt{
+   display: flex;
+   justify-content: flex-end;
+}
+
+#nykyFontti{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#fontStylebtn{
+    background-color: rgb(101, 101, 239);
+    padding: 1rem;
+    font-size: large;
+    color: azure;
+    border-radius: 0.5rem;
+
+}
+
